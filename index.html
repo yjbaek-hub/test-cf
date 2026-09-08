@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>Hello World</title>
+  <style>
+    h1, h3 { color: black; cursor: pointer; }
+  </style>
+</head>
+
+<body>
+  <h1>Hello World!</h1>
+  <h3>Jae Seung Lee</h3>
+
+  <script>
+    document.querySelector('h1').addEventListener('click', function () {
+      this.style.color = 'red';
+    });
+
+    document.querySelector('h3').addEventListener('click', function () {
+      this.style.color = 'blue';
+    });
+  </script>
+</body>
+</html>
